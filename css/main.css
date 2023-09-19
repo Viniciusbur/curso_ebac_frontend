@@ -57,8 +57,8 @@ section h2
 }
 
 .articles article h3{
-    margin-top: 8px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 .articles article a{
@@ -82,12 +82,16 @@ section h2
 }
 
 .articles article h3{
-    font-size: 24px;
+    font-size: 18px;
 }
 
 section h2{
-    font-size: 32px;
+    font-size: 25px;
 }
+
+section h2, .articles article{
+    margin-bottom: 1px;
+} 
 
 #sports {
     background-color: rgba(54, 54, 206, 0.1);
@@ -103,4 +107,25 @@ section h2{
 
 #economy .articles a{
     background-color: rgb(185, 183, 45);
+}
+
+#tecnology{
+    background-color: rgba(197, 43, 133, 0.158);
+}
+
+#tecnology .articles a{
+    background-color: brown;
+}
+
+.articles article img{
+    width: 200px;
+    height: 150px;
+}
+
+#entertainment{
+    background-color: rgba(24, 158, 75, 0.158);
+} 
+
+#entertainment .articles a{
+    background-color: rgb(92, 175, 75);
 }
