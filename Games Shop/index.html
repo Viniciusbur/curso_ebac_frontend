@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games Shop - A sua loja de games</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -13,18 +16,18 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="%%"> Sobre a loja</a>
+                        <a href="about"> Sobre a loja</a>
                     </li>
                     <li>
-                        <a href="%%"> Contato</a>
+                        <a href="#contact"> Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-<section>
+<section id="about">
     <div class="container">
-        <img src="./" alt="Fachada da loja"/>
+        <img class="store-front" src="./imagens/fachada_loja.jpg" alt="Fachada da loja"/>
         <div>
             <h2>Sobre a loja</h2>
             <p>
@@ -33,9 +36,55 @@
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat in at sunt cupiditate, esse dolores saepe voluptas ab aliquid. Similique alias non consequuntur dolorem praesentium vitae facilis porro corporis totam.
             </p>
+            <ul class="brand-list">
+                <li><img src="./imagens/logo_nintendo.jpg" alt="Nintendo"/></li>
+                <li><img src="./imagens/logo_play.png" alt="Playstation"/></li>
+            </ul>
         </div>
     </div>
 </section>
-
+<section class="contact">
+    <div>
+        <h2>Contato</h2>
+        <div class="contac-methods">
+            <div>
+                <h3>Fale conosco</h3>
+                <form>
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu Email" required>
+                    <input type="tel" placeholder="Seu Telefone">
+                    <textarea placeholder="Sua mensagem"></textarea required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <h3>Nos Acompanhe</h3>
+                <ul class="social-links">
+                <li>
+                    <a href="#" title="Siga-nos no Instagran">
+                    <img src="./imagens/logo_insta.png" alt="Logo Instagran"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Siga-nos no Instagran">
+                    <img src="./imagens/logo_insta.png" alt="Logo Instagran"/>
+                    </a>
+                </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Venha até nós</h3>
+                <p> Rua Teste Teste, Teste</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
