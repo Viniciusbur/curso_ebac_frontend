@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-weight: normal;
+    color: rgb(156, 26, 26);
+    background-color: rgb(74, 93, 99);
+}
+
+
+header, section h2, section h3, form button{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav a{
+    color: rgb(156, 26, 26);
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resumos img{
+    height: 200px;
+}
+
+.capa img{
+    height: 400px;
+    margin-right: 32px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section {
+    color: rgb(156, 26, 26);
+}
+
+section p{
+    margin-bottom: 12px;
+}
+
+.social-link img{
+    height:40px;
+}
+
+.social-link li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-link a{
+    text-decoration: none;
+}
+
+.social-link li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-around;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 200px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: rgb(156, 26, 26);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(241, 83, 83);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(156, 26, 26);
+}
+
+footer{
+    background-color: rgb(74, 93, 99);
+    color: white;
+    padding: 16px 0;
+}
+
