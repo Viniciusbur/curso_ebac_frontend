@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda de Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lato&family=Roboto:wght@400;700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <h1>Agenda de contatos</h1>
+        </header>
+        <form id="form-adicionar">
+            <input type="text" id="nome-contato" required placeholder="Nome do Contato"/>
+            <input type="number" id="ddd-contato" min="0" max="99" required placeholder="DDD" />
+            <input type="tel" id="numero-contato" pattern="^[0-9]{9}" required placeholder="Numero do contato" />
+            <button type="submit"> Adicionar </button>
+        </form>
+        <table cellspacing ="0">
+            <thead>
+                <tr>
+                    <th>Nome do contato</th>
+                    <th>Numero do contato</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td id="nome-contato-adicionado">---</td>
+                    <td id="numero-contato-adicionado">---</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
 </body>
 </html>
